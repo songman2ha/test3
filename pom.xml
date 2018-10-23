@@ -4,7 +4,7 @@
 	<groupId>com.github.kevinsawicki</groupId>
 	<artifactId>github-maven-example</artifactId>	
 	<version>0.1-SNAPSHOT</version>
-	
+	<packaging>war</packaging>
 	
 	<name>GitHub Maven Plugin Example</name>
 	<description>Project to demonstrate GitHub Maven plugins</description>
@@ -41,8 +41,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	<packaging>war</packaging>
+	
 	<build>
+		<finalName>test3</finalName>
 		<plugins>
 			<plugin>
 				<groupId>com.github.github</groupId>
