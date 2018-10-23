@@ -4,7 +4,7 @@
 
 	<groupId>com.github.kevinsawicki</groupId>
 	<artifactId>github-maven-example</artifactId>
-	  <packaging>war</packaging>
+	
 	<version>0.1-SNAPSHOT</version>
 	<name>GitHub Maven Plugin Example</name>
 	<description>Project to demonstrate GitHub Maven plugins</description>
