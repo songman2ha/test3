@@ -83,9 +83,12 @@
 
 		<groupId>org.codehaus.mojo</groupId>
 		<artifactId>tomcat-maven-plugin</artifactId>
+				<version>1.1</version>
 		<configuration>
-		<url>http://222.239.119.229:8080/test3</url>
-		<path>/test</path>
+			 <charset>UTF-8</charset>
+      			 <mode>war</mode>
+		<url>http://222.239.119.229:8080/manager/text</url>
+		<path></path>
 		<username>admin</username>
 		<password>admin</password>
 		</configuration>
