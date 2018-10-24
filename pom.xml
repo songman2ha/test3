@@ -74,7 +74,8 @@
 				<failOnMissingWebXml>false</failOnMissingWebXml>
 			</configuration>
 			</plugin>
- 
+
+			<!-- test -->
 			<plugin>
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
