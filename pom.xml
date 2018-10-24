@@ -29,13 +29,7 @@
 		<developerConnection>scm:git:git@github.com:kevinsawicki/github-maven-example.git</developerConnection>
 	</scm>
 	
-	<dependency>
-		<groupId>encrypt</groupId>
-		<artifactId>encrypt</artifactId>
-		<version>0.1</version>
-		<scope>system</scope>
-		<systemPath>${webcontent-dir}/WEB-INF/lib/olleh-base-0.8.jar</systemPath>
-	</dependency>
+
 	
 	
 	<developers>
